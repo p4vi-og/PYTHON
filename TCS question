@@ -1,0 +1,11 @@
+legs=16
+heads=6
+flag=False
+for cows in range(heads+1):
+    hens=heads-cows
+    if(cows*4+hens*2==legs):
+        print(hens)
+        print(cows)
+        flag=True
+if(flag==False):
+    print("No Solution")
