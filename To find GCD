@@ -1,0 +1,8 @@
+a=60
+b=25
+while(b!=0):
+    remainder=a%b
+    temp=b
+    a=b 
+    b=remainder
+print(a)
