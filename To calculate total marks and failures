@@ -1,0 +1,11 @@
+s=0
+b=0
+n=int(input("Enter number of marks:"))
+for i in range(n):
+    a=int(input("Enter marks:"))
+    if(a>=40):
+        s=s+a
+    else:
+        b=b+1
+print("Total marks(greater than 40):",s)
+print("Subjects failed:",b)
