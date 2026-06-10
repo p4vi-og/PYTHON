@@ -1,0 +1,5 @@
+names=["HARDICK","GILL","DHONI","SAKSHI","RAJU"]
+marks=[89,35,70,88,30]
+for i in range(5):
+    if marks[i]>40:
+        print("{}.{} has scored {} marks".format((i+1),names[i],marks[i] ))
