@@ -1,0 +1,16 @@
+class Rect():
+    def __init__(self):
+        self.a=int(input("Enter the Lenght:"))
+        self.b=int(input("Enter the Bredth:"))
+    def display(self):
+        return self.a*self.b
+
+
+
+n=int(input("Enter the Number of Rectangle:"))
+l=[]
+for i in range(n):
+    R=Rect()
+    l.append(R)
+for i in l:
+    print("Area of Rectangle is :",i.display())
