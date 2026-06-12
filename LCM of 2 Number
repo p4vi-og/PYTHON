@@ -1,0 +1,10 @@
+x=int(input("Enter the Number:"))
+y=int(input("Enter the Number:"))
+b=max([x,y])
+s=b
+while(True):
+    if b%x==0 and b%y==0:
+        break
+    else:
+        b=b+s
+print("LCM of 2 Number is : ",b)  
